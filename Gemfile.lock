@@ -86,6 +86,9 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.23.0)
@@ -157,6 +160,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.3-x86_64-darwin)
     thor (1.2.2)
     thread_safe (0.3.6)
     timeout (0.4.0)
@@ -168,6 +172,7 @@ GEM
     websocket-extensions (0.1.5)
 
 PLATFORMS
+  ruby
   x86_64-darwin-18
 
 DEPENDENCIES
@@ -184,7 +189,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.6.1p33
+   ruby 2.7.8p225
 
 BUNDLED WITH
    2.4.12
